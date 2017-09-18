@@ -38,6 +38,11 @@
     position: absolute;
     left: 0;
     top: 27px;
+    transition: transform 0.5s;
+
+}
+.slider-item img:hover{
+    transform: translate(-20%, -20%) rotate(10deg) ;
 }
 .slide-title{
     font: 44px/52px "Arial Black";
